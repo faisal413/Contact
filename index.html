@@ -1,0 +1,65 @@
+<?php include 'sendemail.php'; ?>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Faisal Hossain Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="icon" href="https://faisal413.github.io/profile/logo%201.jpg" sizes="16x16" type="image/png">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+
+    <!--alert messages start-->
+    <?php echo $alert; ?>
+    <!--alert messages end-->
+    <div class="container">
+      <form action="https://formspree.io/f/xwkwgkvv" method="POST" id="my-form">
+    <!--contact section start-->
+    <div class="contact-section">
+      <div class="contact-info">
+        <div><i class="fas fa-map-marker-alt"></i>Chouddogram, Cumilla</div>
+        <div><i class="fas fa-envelope"></i>mdfaisal521@outlook.com</div>
+        <div><i class="fas fa-phone"></i>+088 01814366774</div>
+        <div><i class="fas fa-clock"></i>Thus-Fri 2:00 PM to 8:00 AM</div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+    <div class="content1">
+    </div>
+    <!--contact section end-->
+    <script src="./index.js">
+    </script>
+    <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
+    <footer>
+      <div class="main-content">
+        <div class="left box">         
+          <div class="content">
+            <div class="social">
+          </div>
+        </div>
+      </div>
+      <div class="faisal">
+        <center>
+          <span class="credit">MD.FAISAL HOSSAIN . </span><a href="https://faisal413.github.io/profile/"target="_blank">ABOUT US | </a><a href="https://www.privacypolicygenerator.info/live.php?token=4DTwZSBjQoeQNryoH8KjndWEpgyxRN8f"target="_blank"> PRIVACY POLICY | </a></span>
+          <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+  </body>
+</html>
