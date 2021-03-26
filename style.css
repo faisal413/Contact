@@ -9,7 +9,7 @@
 
 body{
   min-height: 100vh;
-  background: url("bg.jpg") no-repeat;
+  background: url("https://images.theconversation.com/files/390419/original/file-20210318-19-iwpo2a.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip") no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
